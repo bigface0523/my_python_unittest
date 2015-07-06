@@ -1,0 +1,22 @@
+----------
+單元測試
+----------
+1. Test case 測試案例 (每一隻測試，以 test 為命名開頭)
+2. Test fixture (setUp, tearDown)
+3. Test suite 一組測試案例
+4. Test runner
+
+----------
+測試結果
+----------
+. 成功
+F 失敗 (failure)
+E 錯誤 (error)
+S 略過 (skip) 
+	@unittest.skip(.....)
+	@unittest.skipIf(.....)
+
+X 預期失敗 (expected)
+	@unittest.expectedFailure(.....)
+
+註記 : @是裝飾器 decorator 是一個可呼叫物件，裝飾函數，在函數呼叫使用前先執行
